@@ -1,0 +1,202 @@
+/* Reset some default styles */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+/* Basic mobile-first styles */
+.tabelas {
+    max-width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.formularios {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.formularios select {
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+
+form {
+    margin-bottom: 10px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="number"] {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #0074d9;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+/* Style for the production table */
+#tabelaProducao {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+#tabelaProducao th, #tabelaProducao td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: center;
+}
+
+#tabelaProducao th {
+    background-color: #0074d9;
+    color: #fff;
+}
+
+/* Style for the production calculation table */
+#tabelaCalculoProduçao {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+#tabelaCalculoProduçao th, #tabelaCalculoProduçao td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: center;
+}
+
+#tabelaCalculoProduçao th {
+    background-color: #0074d9;
+    color: #fff;
+}
+
+/* Style for the people table */
+#tabelaPessoas {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+#tabelaPessoas th, #tabelaPessoas td {
+    border: 1px solid #ccc;
+    padding: 8px;
+}
+
+#tabelaPessoas th {
+    background-color: #0074d9;
+    color: #fff;
+}
+
+/* Style for the production indicators table */
+#TabelaIndProducao {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+#TabelaIndProducao th, #TabelaIndProducao td {
+    border: 1px solid #ccc;
+    padding: 8px;
+}
+
+#TabelaIndProducao th {
+    background-color: #0074d9;
+    color: #fff;
+}
+
+/* Estilos para os links que parecerão botões */
+a.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color:  #0074d9;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+a.button:hover {
+    background-color: #2980b9;
+}
+
+/* Estilo para a lista de registros */
+#valoresPredefinidos {
+    list-style: none; /* Remove os marcadores de lista */
+    padding: 0;
+    margin: 0;
+}
+
+/* Estilo para cada item da lista */
+#valoresPredefinidos li {
+    background-color: #f5f5f5; /* Cor de fundo */
+    padding: 10px; /* Espaçamento interno */
+    margin: 5px 0; /* Espaçamento externo entre os itens da lista */
+    border: 1px solid #ddd; /* Borda com cor cinza */
+    border-radius: 4px; /* Cantos arredondados */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+/* Estilo para o texto dentro de cada item da lista */
+#valoresPredefinidos li {
+    font-size: 16px;
+    color: #333;
+}
+
+/* Estilo para destacar os registros alternados */
+#valoresPredefinidos li:nth-child(even) {
+    background-color: #e8e8e8; /* Cor de fundo alternada para registros pares */
+}
+
+
+
+
+/* Responsive design using media queries for tablets and laptops */
+@media (min-width: 768px) {
+    .tabelas {
+        max-width: 768px;
+        margin: 0 auto;
+    }
+
+    .formularios {
+        padding: 30px;
+    }
+
+    input[type="number"] {
+        width: 80%;
+    }
+
+    button {
+        padding: 12px 20px;
+    }
+}

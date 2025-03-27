@@ -1,0 +1,16 @@
+/* Adicione qualquer customização aqui para os estilos do formulário ou listas */
+body {
+    background-color: #f8f9fa;
+}
+
+h1, h2 {
+    font-family: 'Arial', sans-serif;
+    color: #0074d9;
+}
+
+/* Customização das listas de valores cadastrados */
+#valoresPredefinidos li {
+    font-size: 16px;
+    color: #333;
+    border-radius: 5px;
+}
